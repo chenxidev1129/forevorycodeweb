@@ -1,0 +1,125 @@
+.profileDetails{
+	// account info
+	.accountInfo{
+		padding-bottom: 30px;
+		@include media-breakpoint-down(lg) {
+			padding-bottom: 20px;
+		}
+	}
+	// details content
+	.detailsContent{
+		.nav-pills{
+			border-bottom: 1px solid #f1f1f1;margin:24px 0 32px;
+			padding-bottom: 20px;
+			.nav-item{
+				
+			}
+			.nav-link{
+				@include font-size($h15-font-sizes);color:color(450);position: relative;
+				font-family: font(bd);padding:0 0 8px; 
+				&:not(:last-child){margin-right: 32px;}
+				&:before{
+					content:""; width:0;height:4px;background-color:color(450);
+					position: absolute;left:0;bottom:-21px;@include transition(width 0.5s);
+				}
+				&:hover, &.active{
+					background-color:transparent;
+					&:before{width: 100%;}
+				}
+			}
+
+			@media (max-width: 1599px){
+				margin-bottom: 30px;
+			}
+
+			@include media-breakpoint-down(lg) {
+				margin-bottom: 20px; padding-bottom: 0;
+				.nav-link{
+					padding-bottom: 10px;
+					&:before{height: 2px; bottom: 0;}
+				}
+			}
+
+			@include media-breakpoint-down(xs) {			
+				.nav-item{
+					&:not(:last-child){margin-right: 15px;}
+				}
+				.nav-link{
+					&:before{bottom:0;}
+				}
+			}
+		}
+
+		.myAccounts{
+			.row{
+				> .col, > [class*="col-"]{
+					flex:0 0 20%; max-width: 20%; margin-bottom: 20px;
+				}
+			}
+			.profile{
+				img{margin-bottom: 15px; border-radius: 10px; display: block;
+					// @media (min-width:1680px){
+					// 	min-height:294px;
+					// }
+				}
+				a{
+					color:color(900); display: inline-block;margin-bottom:8px;
+					&:hover{color:color(450);} 
+				}
+				.status{
+					color:#8C8C8C;position: relative;padding-left: 16px;font-size: 14px;
+					&:before{
+						content: ""; @include absolutecenter(y); left:0;width: 8px;height: 8px;
+						border-radius: 50%;
+					}
+					&.active:before{background-color: #52C41A;}
+					&.inactive:before{background-color: #F5222D;}
+					&.warning:before{background-color:  #FA8C16;}
+					&.pending:before{background-color:  color(400);}
+				}
+			}
+
+			@include media-breakpoint-down(md) {
+				.row{
+					margin-left: -10px;margin-right: -10px;
+					> .col, > [class*="col-"]{
+						flex: 0 0 25%;max-width: 25%;padding-left: 10px;padding-right:10px;
+					}
+				}
+			}
+			@include media-breakpoint-down(sm) {
+				.row{
+					> .col, > [class*="col-"]{
+						flex: 0 0 33%;max-width: 33%; margin-bottom: 20px;
+					}
+				}
+				.profile{
+					.status{
+						font-size: 13px;
+						&:before{width: 6px;height: 6px;}
+					}
+				}
+			}
+
+			@include media-breakpoint-down(xs) {
+				.row{
+					> .col, > [class*="col-"]{
+						flex: 0 0 50%;max-width: 50%; margin-bottom: 15px;
+					}
+				}
+				.profile{
+					.h17, .status{font-size: 12px;}
+					.status{padding-left: 12px;}
+				}
+			}
+		}
+
+		.activity{
+			@include media-breakpoint-down(xs) {
+				overflow-x:auto;
+				&_outer{width:850px;}
+			}
+		}
+
+	}
+}

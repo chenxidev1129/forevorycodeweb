@@ -1,0 +1,2 @@
+{{ $dataTable->table() }}
+{{ $dataTable->scripts() }}

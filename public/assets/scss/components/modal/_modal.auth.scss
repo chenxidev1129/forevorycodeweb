@@ -1,0 +1,73 @@
+.authModal{
+	.modal-content{border-radius: 12px;}
+	.modal-header{
+		padding:30px 20px;
+		img{width:200px;}
+		.subText{font-size: 14px; margin-top: 10px; font-family: font(md);}
+	}
+	.close{position: absolute;right:15px;top:15px;}
+	.divider{
+		font-size: 15px;color:#7C7C7C;position: relative;text-align: center;
+		background-color: color(50);z-index: 1;
+		&:before{background-color: color(50);content:"";width:22px; height:26px; @include absolutecenter(); z-index: -1;}
+		&:after{
+			content: "";border-bottom:1px solid #7c7c7c;width: 100%; left:0;
+			z-index: -2;position: absolute;top:11px;
+		}
+	}
+	.form-group{
+		margin-bottom: 15px;
+		label{font-size: 16px;line-height: 16px;}
+		.form-control{padding-top: 10px;padding-bottom: 10px; height: 36px;font-size: 15px;}
+		.bootstrap-select{
+			&.form-control{padding:0;}
+			.dropdown-toggle{
+				padding: 8px 15px; padding-right: 15px; height: 36px;font-size: 15px;
+				&:after{font-size: 10px; line-height: 8px; right: 10px;}
+			}
+		}
+	}
+	.otherLoginButtons{
+		margin:20px 0;border-bottom: 1px solid #7C7C7C;padding-bottom: 20px;
+		.divider{margin-bottom: 20px;}
+	}
+	.passwordField{
+		input{padding-right: 36px;}
+		.showPassword{
+			position:absolute; top:8px; right:10px;font-size: 20px; color:color(100);
+			line-height: 10px;
+		}
+	}
+	.uploadProfile{
+		width: 80px;height: 80px; 
+		img{width: 100%;height: 100%; }
+		label{
+			width: 100%;height: 100%; cursor: pointer;border:1px solid #dddee3;background: #f8f9fe;
+			transition:all 0.5s;position: absolute;left:0;top:0;
+			&:hover{border-color:color(500);em{color:color(500);} }
+		}
+		em{font-size: 20px; @include absolutecenter(both); color:#dddee3;}
+
+		&.show{
+			label{
+				background-color: rgba(color(900), 0.5); 
+				&:hover {
+					background-color: rgba(color(900), 0.2);
+					em{color:color(500);}
+				}
+			}
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		.modal-header{
+			img{width:165px;}
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		.modal-header{
+			.subText{font-size: 12px; }
+		}
+	}
+}

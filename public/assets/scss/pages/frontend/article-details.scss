@@ -1,0 +1,11 @@
+.articleDetails{
+	.article{
+		&_head{
+			li{
+				@include font-size($h15-font-sizes); font-family: font(sm);
+				em{color:color(500);}
+			}
+			img{border-radius: 10px; margin:32px 0;}
+		}
+	}
+}

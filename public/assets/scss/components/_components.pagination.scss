@@ -1,0 +1,29 @@
+.pagination{
+	margin-bottom: 0;
+	li{
+		+ li {margin-left: 8px;}
+		.page-link{
+			width:32px;height: 32px; border-color:#D9D9D9;margin-left: 0;font-size: 14px;
+			@include flexcenter(both); color:#595959;border-radius: 4px;
+			&:hover{border-color:color(400);color:color(400);background-color: transparent;}
+			&:focus{box-shadow: none;}
+		}
+		&.active{
+			.page-link{border-color:color(400);color:color(400); background-color: transparent;}
+		}
+		&.disabled{
+			.page-link{border-color:color(100);color:color(100);}
+		}
+
+		@include media-breakpoint-down(lg) {
+			+ li{margin-left: 5px;}
+			.page-link{width: 28px;height: 28px;font-size: 12px;}
+		}
+	}
+}
+
+.dataTables_paginate{
+	.pagination{
+		justify-content:center !important; margin-top: 16px !important;
+	}
+}

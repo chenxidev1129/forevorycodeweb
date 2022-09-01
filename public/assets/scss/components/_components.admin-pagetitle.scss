@@ -1,0 +1,22 @@
+.adminPageTitle{
+	margin-bottom: 24px;
+	.search{
+		position: relative; display: inline-block;margin-top:16px;
+		input{
+			width:256px; height: 32px;padding:5px 30px 7px 12px;font-size: 14px; border-radius:0;
+			&:focus{box-shadow: none; border-color: color(450);}
+		}
+		&_btn{
+			padding: 0;color:#8C8C8C;font-size: 12px;@include absolutecenter(y);right:10px;
+			transition:color 0.4s;
+			&:hover{color:color(500);}
+		}
+	}
+	@include media-breakpoint-down(xs) {
+		margin-bottom: 15px;
+		.search{
+			margin-top: 10px; display: block;
+			input{width: 100%;}
+		}
+	}
+}

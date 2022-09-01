@@ -1,0 +1,222 @@
+// datepicker css
+.datepicker {
+    td, th {
+        height: 35px;
+        width: 35px;
+    }
+    table {
+        tr {
+            td,
+            span {
+                &:focus {
+                    background-color: color(500) !important;
+                    background-image: none;
+                }
+                &.active {
+                    &.active {
+                        background-color: color(500) !important;
+                        background-image: none;
+                        &:focus,
+                        &:hover {
+                            background-color: color(500) !important;
+                            background-image: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.bootstrap-datetimepicker-widget {
+    -webkit-box-shadow: 0 0 20px rgba(color(500), 0.15);
+            box-shadow: 0 0 20px rgba(color(500), 0.15); 
+    &.dropdown-menu {
+        border: none;
+        border-radius: 0;
+        padding: 0 !important;
+        margin: 0 !important;
+        &.bottom{
+            &:after {
+              border-bottom-color: color(500);
+          }
+        }
+    }
+    &.top{
+        &:after{
+            border-top-color: color(500);
+        }
+    }
+    &.bottom {
+        &:before {
+            display: none;
+        }
+    }
+    .table {
+        thead {
+            background-color: color(500);color:color(50);
+            th {
+                border: none;
+                border-radius: 0;
+                font-weight: normal;
+                font-size: 14px;
+                span {
+                    font-size: 12px;
+                }
+                &.dow {
+                    background-color: lighten(color(500), 15%);
+                    font-size: 13px;color:color(50);
+                }
+                &.prev{
+                  span{
+                    &::after{
+                      font-family: 'icomoon'; content: "\e924";
+                    }
+                  }
+                }
+                &.next{
+                  span{
+                    &::after{
+                      font-family: 'icomoon'; content: "\e923";
+                    }
+                  }
+                }
+            }
+            tr {
+                &:first-child {
+                    th {
+                        &:hover {
+                            background-color:color(500);
+                            color:color(50);
+                            .fa { color:color(50); }
+                        }
+                    }
+                }
+            }
+        }
+        td {
+            border-top: none;
+            border-radius: 0;
+            font-size: 12px;
+            &.today {
+              background-color: color(500);
+                color: color(50);
+                &:before {
+                    border-bottom-color: color(500);
+                }
+            }
+            &.active {
+                background-color: color(500);
+                color: color(50);
+                &:before {
+                    border-bottom-color:color(50);
+                }
+            }
+            &:hover {
+                background: color(500) !important;
+                color: color(50);
+            }
+        }
+    }
+
+    .table-condensed {
+        thead {
+            background-color: color(500);color:color(50);
+            th {
+              border: none;
+              border-radius: 0;
+              font-weight: normal;
+              padding: 8px;
+              font-size: 14px;
+              &.dow {
+                  background-color: #b3dc15;
+              }
+              &.prev{
+                span{
+                  &::after{
+                    font-family: 'icomoon'; content: "\e924";
+                  }
+                }
+              }
+              &.next{
+                span{
+                  &::after{
+                    font-family: 'icomoon'; content: "\e923";
+                  }
+                }
+              }
+            }
+            tr {
+                &:first-child {
+                    th {
+                        &:hover {
+                            background-color:color(500);
+                            color:color(50);
+                            .fa { color: color(50); }
+                        }
+                    }
+                }
+            }
+        }
+        td {
+            span {
+                border-radius:0;width: 38px;height: 38px;line-height: 38px;font-size: 13px;
+                &.month {
+                    font-size: 14px;
+                }
+                &.active {
+                    background-color: color(500);
+                    color: color(50);
+                }
+                &:hover {
+                    background-color: color(500);
+                    color: color(50);
+                }
+            }
+        }
+    }
+    .timepicker {
+        padding:15px;border:1px solid color(500);
+        a[data-action]{
+            padding:0px;
+        }
+        .btn-primary {
+            background-color: color(500);
+            background-image: none;
+            border-radius: 0;
+            border-color: color(500);margin: 15px 0;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: darken(color(500), 10%);
+                border-color: darken(color(500), 10%)
+            }
+        }
+        .fa {
+            color: color(500); font-size:20px !important;
+            &.fa-arrow-up{
+              &:after{ font-family: 'icomoon'; content: "\e952";}
+            }
+            &.fa-arrow-down{
+              &:after{ font-family: 'icomoon';content: "\e950";}
+            }
+        }
+        table {
+            td {
+                height:35px;line-height:35px;width:35px;
+                span{
+                    font-size: 16px !important;
+                }
+                span,
+                &.day,
+                &.hour,
+                &.minute,
+                &.second {
+                    &:hover {
+                        background-color: color(500);
+                        color: color(50);
+                    }
+                }
+            }
+        }
+    }
+}

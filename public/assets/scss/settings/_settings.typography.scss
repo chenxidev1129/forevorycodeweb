@@ -1,0 +1,16 @@
+//  Inter fonts
+@include font-face(font(rg), "#{$fonturl}/InterRegular", "normal", "normal");
+@include font-face(font(lt), "#{$fonturl}/InterLight", "normal", "normal");
+@include font-face(font(md), "#{$fonturl}/InterMedium", "normal", "normal");
+@include font-face(font(sm), "#{$fonturl}/InterSemiBold", "normal", "normal");
+@include font-face(font(bd), "#{$fonturl}/InterBold", "normal", "normal");
+@include font-face(font(bk), "#{$fonturl}/InterBlack", "normal", "normal");
+
+// Noto fonts
+@include font-face(font(nrg), "#{$fonturl}/NotoSerifRegular", "normal", "normal");
+// @include font-face(font(nbd), "#{$fonturl}/NotoSerifBold", "normal", "normal");
+@include font-face(font(nbd), "#{$fonturl}/PoppinsBold", "normal", "normal");
+
+
+
+

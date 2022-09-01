@@ -1,0 +1,93 @@
+// filter section
+.filter_section {
+    margin-bottom: 5px;
+    .form_field {
+        margin: 0 -5px;
+    }
+    .form-group {
+        width: 207px;
+        margin-bottom: 15px;
+        padding: 0 5px;
+        .form-control {
+            height: 38px;font-size: 14px;
+        }
+        .bootstrap-select {
+            .dropdown-toggle {
+                height: 38px;
+                padding: 6px 15px;
+            }
+        }
+        .iconGroup {
+            i {
+                font-size: 18px;
+            }
+        }
+        .dateIcon,
+        .timeIcon {
+            &:after {top: 10px;}
+        }
+    }
+
+    .btn_clumn {
+        min-width: 83px;
+        padding: 0 5px;
+        margin-bottom: 15px;
+        .btn {
+            height: 38px;
+            width: 38px;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 3px;
+        }
+    }
+
+    @media (max-width: 1400px) {
+        .form-group {
+            width: 197px;
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .form-group {
+            width: 180px;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .form-group {
+            width: auto;
+            max-width: 25%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .form-group {
+            max-width: 33.33%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .form-group {
+            max-width: 50%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        }
+    }
+
+    @media(max-width:360px) {
+        .form-group {
+            max-width: 100%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        }
+    }
+
+}

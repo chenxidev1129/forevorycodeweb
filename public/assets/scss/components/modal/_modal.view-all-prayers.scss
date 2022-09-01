@@ -1,0 +1,33 @@
+.viewAllPrayers{
+	.modal-content{border:0;}
+	.modal-header, .modal-body{padding:40px;}
+	.close{
+		font-size: 30px;color:color(500);opacity: 1;transition:all 0.5s;
+		&:hover{
+			opacity: 0.8;   
+		}
+	}
+	.list{
+		h6{margin-bottom: 20px;}
+		+ .list{margin-top: 32px;}
+	}
+	@media (max-width: 1599px){
+		.close{font-size: 20px;}
+	}
+
+	@include media-breakpoint-down(lg) {
+		.modal-header, .modal-body{padding:30px;}
+		.list{
+			h6{margin-bottom: 10px;}
+			+ .list{margin-top: 20px;}
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.modal-header, .modal-body{padding:20px;}
+	}
+
+	@include media-breakpoint-down(sm) {
+		.close{font-size: 16px;}
+	}
+}

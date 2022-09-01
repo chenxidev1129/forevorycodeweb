@@ -1,0 +1,15 @@
+@keyframes ripple {
+    0% {
+        -webkit-transform: scale(4);
+        transform: scale(4);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(40);
+        transform: scale(40);
+    }
+}
+
+
+
+

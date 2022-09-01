@@ -1,0 +1,74 @@
+.commonTable{
+	thead{
+		th{
+			background-color: #FAFAFA; padding:12px 8px;font-size: 14px; color:#262626; vertical-align: middle;
+			border-top: 0;border-bottom-width: 1px;text-transform: capitalize; white-space: nowrap;
+			&:first-child{padding-left: 40px; padding-right: 40px;}
+		}
+	}
+	tbody{
+		td{
+			border-color:#E8E8E8;color:#595959;padding:15px 8px;font-size: 14px; white-space: nowrap;
+			&:first-child{padding-left: 40px; padding-right: 40px;}
+			&.description{
+				white-space: normal; width: 250px;
+			}
+		}
+		tr{
+			&:last-child{
+				td{border-bottom:1px solid #E8E8E8;}
+			}
+		}
+	}
+	.lightBlue-link{
+		color:color(450); 
+		&:hover{color:darken(color(450), 5%);}
+	}
+	.action{
+		margin-bottom: 0;
+		li{
+			a{color:color(400);color:lighten(color(400), 5%);}
+			span{color:#595959;}
+		}
+	}
+	.status{
+		color:#8C8C8C;position: relative;padding-left: 16px;
+		&:before{
+			content: ""; @include absolutecenter(y); left:0;width: 8px;height: 8px;
+			border-radius: 50%;
+		}
+		&.active:before{background-color: #52C41A;}
+		&.inactive:before{background-color: #F5222D;}
+		&.warning:before{background-color:  #FA8C16;}
+		&.pending:before{background-color:  color(400);}
+	}
+	.custom-checkbox .custom-control-input:checked ~ .custom-control-label:before{
+		background-color:color(450);border-color:color(450);
+	}
+
+	.dataTables_wrapper .dataTables_filter{
+		text-align: left; margin-bottom: 24px;
+		label{
+			margin-bottom: 0; position: relative;
+			&:after{
+				@include absolutecenter(y);color: #8C8C8C; font-size: 12px; content: "\e915";
+				font-family: 'icomoon' !important; right:10px;
+			}
+		}
+		input{
+			width: 256px; height: 32px; padding: 5px 30px 7px 12px; font-size: 14px;
+			border-radius: 0; margin-left: 0;
+			&:focus{box-shadow: none; border-color: color(450);}
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		thead th, tbody td{
+			font-size: 13px;padding:10px 8px;
+			&:first-child{padding-left: 20px;padding-right: 20px;}
+		}
+		.status{
+			&:before{width:6px;height: 6px;}
+		}
+	}
+}

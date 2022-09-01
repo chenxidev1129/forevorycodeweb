@@ -1,0 +1,30 @@
+.footerNote{
+	background-color: rgba(color(900), 0.8);padding: 25px 0 20px;backdrop-filter: blur(10px);
+	position: fixed;bottom:0; width: 100%;left:0;z-index: 5;
+	img{width: 50px;}
+	p, a, h6{font-size: 14px;}
+	h6{margin-bottom: 10px;}
+	a{color:color(400); &:hover{color:lighten(color(400), 5%); }}
+	.loginBtn{
+		width: 110px;height: 30px;background-color: #0095f6; color:color(50); border-radius: 4px;
+		@include flexcenter(both);
+		&:hover{text-decoration: none; background-color:lighten(#0095f6, 5%); color:color(50);}
+	}
+	&_right{width: 120px; margin-left: auto; text-align: center;}
+	.container{max-width: 1000px; }
+
+	@include media-breakpoint-down(lg) {
+		padding: 20px 0;
+	}
+
+	@include media-breakpoint-down(xs) {
+		padding:15px 0;
+		p, a{font-size: 13px;}
+		h6{margin-bottom: 5px;}
+		&_right{
+			width:auto;margin-left:auto;
+		}
+		.loginBtn{width:100px;display: inline-flex;}
+	}
+
+}

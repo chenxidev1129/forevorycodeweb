@@ -1,0 +1,70 @@
+.btn {
+  cursor: pointer; border-radius:100px;line-height: normal; text-transform: capitalize;
+  height: 40px; font-size: 15px; padding: 10px 35px; font-family: font(bd);
+  &-sm{padding:7px 16px; font-size: 13px; height: 34px;}
+  @include flexcenter(both); display: inline-flex;
+   &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus,
+  .show > &.dropdown-toggle:focus, &:focus {box-shadow: none !important; outline: none !important;}
+ 
+  &.btn-primary{
+    border-color: color(500); color: color(50); background:color(500);
+    &:hover, &:active, &:not(:disabled):not(.disabled):active {
+      background:lighten(color(500), 4%); color: color(50); border-color: lighten(color(500), 4%);;
+    }
+    &:focus{border-color: color(500); color: color(50); background:color(500);}
+  }
+
+  &.btn-primary-light{
+    border-color: color(450); color: color(50); background:color(450);
+    &:hover, &:active, &:not(:disabled):not(.disabled):active {
+      background:lighten(color(450), 4%); color: color(50); border-color: lighten(color(450), 4%);;
+    }
+    &:focus{border-color: color(450); color: color(50); background:color(450);}
+  }
+
+  &.btn-light{
+    border-color: color(50); color: color(500); background:color(50);
+    &:hover, &:active, &:not(:disabled):not(.disabled):active {
+      background:lighten(color(50), 4%); color: color(500); border-color: lighten(color(50), 4%);;
+    }
+    &:focus{border-color: color(50); color: color(500); background:color(50);}
+  }
+
+  &.btn-outline-primary {
+    border-color: color(500); color: color(500) !important;border-width: 2px;
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active {
+      border-color: darken(color(500), 6%); background: darken(color(500), 6%); color: color(50) !important;
+    }
+  }
+  &.btn-outline-primary-light {
+    border-color: color(450); color: color(450);border-width: 1px;border-radius: 0; font-family: font(rg);
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active {
+      border-color: darken(color(450), 6%); background: darken(color(450), 6%); color: color(50);
+    }
+  }
+
+  &.btn-outline-dark {
+    border-color: color(900); color: color(900);border-width: 2px;
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active {
+      border-color: darken(color(900), 6%); background: darken(color(900), 6%); color: color(50);
+    }
+  }
+
+  @media (max-width: 1599px){
+    padding:10px 20px;
+    &.btn-sm{font-size: 15px; height: 40px;}
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding: 8px 15px; height: 35px; font-size: 14px;
+    &.btn-sm{font-size: 14px;}
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+    &.btn-xs {height: 30px; font-size: 13px; padding: 5px 12px; }
+    &.btn-sm{height:35px; font-size: 13px; padding:8px 15px;}
+    &.btn-lg{font-size: 15px;padding-left:20px; padding-right:20px;}
+  }
+  
+}

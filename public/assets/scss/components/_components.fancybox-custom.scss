@@ -1,0 +1,55 @@
+.fancybox-container{
+	.fancybox-bg{background-color: color(50);}
+	&.fancybox-is-open .fancybox-bg{opacity: 1;}
+	.fancybox-navigation{
+		.fancybox-button--arrow_left, .fancybox-button--arrow_right{padding:0;}
+	}
+	.fancybox-thumbs__list a:before{border-color:color(500); border-width: 3px;}
+	.fancybox-caption{background: transparent;color:color(900); }
+	.fancybox-button{background-color: transparent; color:color(500);}
+	.sliderIcon{
+		border:2px solid color(500);width: 66px;height: 66px;border-radius: 50%;
+		display: flex;align-items:center;justify-content:center;opacity: 1;
+		transition:all 1s;
+		&:hover{opacity: 0.8;}
+		em{font-size: 50px;color:color(500);}
+		&.fancybox-button--arrow_left{
+			left:45px;
+		}
+		&.fancybox-button--arrow_right{
+			right:45px;
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		.sliderIcon{
+			width:40px;height: 40px;top:calc(50% - 10px);
+			em{font-size: 23px;}
+			&.fancybox-button--arrow_left{
+				left:20px;
+			}
+			&.fancybox-button--arrow_right{
+				right:20px;
+			}
+		}
+	}
+
+	@include media-breakpoint-down(xs) {
+		.fancybox-caption{
+			padding-left:15px;padding-right:15px;
+			&__body{
+				p{margin-bottom: 0;}
+			}
+		}
+		.sliderIcon{
+			width:24px;height: 24px;border-width: 1px;
+			em{font-size: 14px;}
+			&.fancybox-button--arrow_left{
+				left:10px;
+			}
+			&.fancybox-button--arrow_right{
+				right:10px;
+			}
+		}
+	}
+}

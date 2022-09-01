@@ -1,0 +1,195 @@
+// fonts 
+.font-rg  {font-family:font(rg) !important;}
+.font-lt  {font-family:font(lt) !important;}
+.font-md  {font-family:font(md) !important;}
+.font-sm  {font-family:font(sm) !important;}
+.font-bd  {font-family:font(bd) !important;}
+.font-bk  {font-family:font(bk) !important;}
+.font-nrg  {font-family:font(nrg) !important;}
+.font-nbd  {font-family:font(nbd) !important;}
+
+
+// heading
+.h34{
+   @include font-size($h34-font-sizes);
+}
+.h28{
+   @include font-size($h28-font-sizes);
+}
+.h22{
+   @include font-size($h22-font-sizes);
+}
+.h20{
+   @include font-size($h20-font-sizes);
+}
+.h17{
+   @include font-size($h17-font-sizes);
+}
+.h15{
+   @include font-size($h15-font-sizes);
+}
+.h13{
+   @include font-size($h13-font-sizes);
+}
+
+
+// padding and margin
+.p-30{
+  padding:30px 0 !important;
+  @include media-breakpoint-down(lg) {
+    padding:20px 0 !important;
+  }
+}
+
+.mt-34{
+  margin-top:34px!important;
+  @media (max-width: 1599px) {
+    margin-top:25px!important;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top:15px !important;
+  }
+}
+.mb-34{
+  margin-bottom:34px!important;
+  @media (max-width: 1599px) {
+    margin-bottom:25px!important;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-bottom:15px !important;
+  }
+}
+.mt-24{
+  margin-top:24px!important;
+  @media (max-width: 1599px) {
+    margin-top:15px!important;
+  }
+}
+.mb-24{
+  margin-bottom:24px!important;
+  @media (max-width: 1599px) {
+    margin-bottom:15px!important;
+  }
+}
+
+
+// colors
+.theme-color{color:color(500)!important;}
+
+
+
+
+// link
+a{
+  @include transition(all 0.5s);
+}
+.theme-link{
+  color:color(500) !important;
+  &:hover{
+    color:lighten(color(500), 5%) !important;
+  }
+}
+
+
+// progressive
+.progressive{
+    background-color:transparent;
+    &__img{
+      width: auto;height: auto;
+    }
+    &--is-loaded{
+      animation: a .1s both;
+    }
+}
+
+
+.pageLoader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+  .spinner-border {
+    color: color(500);
+    font-size: inherit;
+    border-width: 0.2em;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .spinner-border {
+      width: 26px;
+      height: 26px;
+    }
+  }
+}
+
+// button loader
+.btnLoader {
+  margin-left: 5px;
+  border-width: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.videoPlay{
+  background-color:color(500);color:color(50);
+  @include absolutecenter(y); right:10px;font-size: 15px;
+  @include flexcenter('both');width: 40px;height: 40px;
+  &:hover{
+    background:lighten(color(500), 4%); color: color(50);
+  }
+  .active{
+    &:before{content:"\e919";}
+  }
+}
+
+
+// error message
+.error-help-block {
+  font-size: 13px;
+  color: #e20909;
+  display: block;
+  text-align: left;
+  @include media-breakpoint-down(sm) {
+    font-size: 12px;
+  }
+}
+
+// alert
+.alert {
+  padding: 6px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid;
+  border-left: 6px solid;
+  border-right: 6px solid;
+  &.alert-danger {
+    color: #e20909;
+    border-color: #e20909;
+  }
+  @media (max-width: 1599px) {
+    padding: 5px 15px;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+.mandatory{color:color(800);}
+// country code field
+.iti{
+  &.iti--allow-dropdown{display: block;} 
+}
+
+#gravesiteDropdown{
+  .pac-container{
+    left: 0 !important;top: 80px !important; 
+  }
+}

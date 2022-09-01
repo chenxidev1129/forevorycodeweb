@@ -1,0 +1,1712 @@
+{
+  "data": [
+    {
+      "country_name": "Afghanistan (افغانستان)",
+      "abbreviation": "af",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AF.png",
+      "phone_code": "93",
+      "id": 1
+    },
+    {
+      "country_name": "Albania (Shqipëri)",
+      "abbreviation": "al",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AL.png",
+      "phone_code": "355",
+      "id": 2
+    },
+    {
+      "country_name": "Algeria (الجزائر)",
+      "abbreviation": "dz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DZ.png",
+      "phone_code": "213",
+      "id": 3
+    },
+    {
+      "country_name": "American Samoa",
+      "abbreviation": "as",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AS.png",
+      "phone_code": "1",
+      "id": 4
+    },
+    {
+      "country_name": "Andorra",
+      "abbreviation": "ad",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AD.png",
+      "phone_code": "376",
+      "id": 5
+    },
+    {
+      "country_name": "Angola",
+      "abbreviation": "ao",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AO.png",
+      "phone_code": "244",
+      "id": 6
+    },
+    {
+      "country_name": "Anguilla",
+      "abbreviation": "ai",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AI.png",
+      "phone_code": "1",
+      "id": 7
+    },
+    {
+      "country_name": "Antigua and Barbuda",
+      "abbreviation": "ag",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AG.png",
+      "phone_code": "1",
+      "id": 8
+    },
+    {
+      "country_name": "Argentina",
+      "abbreviation": "ar",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AR.png",
+      "phone_code": "54",
+      "id": 9
+    },
+    {
+      "country_name": "Armenia (Հայաստան)",
+      "abbreviation": "am",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AM.png",
+      "phone_code": "374",
+      "id": 10
+    },
+    {
+      "country_name": "Aruba",
+      "abbreviation": "aw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AW.png",
+      "phone_code": "297",
+      "id": 11
+    },
+    {
+      "country_name": "Ascension Island",
+      "abbreviation": "ac",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AC.png",
+      "phone_code": "247",
+      "id": 12
+    },
+    {
+      "country_name": "Australia",
+      "abbreviation": "au",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AU.png",
+      "phone_code": "61",
+      "id": 13
+    },
+    {
+      "country_name": "Austria (Österreich)",
+      "abbreviation": "at",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AT.png",
+      "phone_code": "43",
+      "id": 14
+    },
+    {
+      "country_name": "Azerbaijan (Azərbaycan)",
+      "abbreviation": "az",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AZ.png",
+      "phone_code": "994",
+      "id": 15
+    },
+    {
+      "country_name": "Bahamas",
+      "abbreviation": "bs",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BS.png",
+      "phone_code": "1",
+      "id": 16
+    },
+    {
+      "country_name": "Bahrain (البحرين)",
+      "abbreviation": "bh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BH.png",
+      "phone_code": "973",
+      "id": 17
+    },
+    {
+      "country_name": "Bangladesh (বাংলাদেশ)",
+      "abbreviation": "bd",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BD.png",
+      "phone_code": "880",
+      "id": 18
+    },
+    {
+      "country_name": "Barbados",
+      "abbreviation": "bb",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BB.png",
+      "phone_code": "1",
+      "id": 19
+    },
+    {
+      "country_name": "Belarus (Беларусь)",
+      "abbreviation": "by",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BY.png",
+      "phone_code": "375",
+      "id": 20
+    },
+    {
+      "country_name": "Belgium (België)",
+      "abbreviation": "be",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BE.png",
+      "phone_code": "32",
+      "id": 21
+    },
+    {
+      "country_name": "Belize",
+      "abbreviation": "bz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BZ.png",
+      "phone_code": "501",
+      "id": 22
+    },
+    {
+      "country_name": "Benin (Bénin)",
+      "abbreviation": "bj",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BJ.png",
+      "phone_code": "229",
+      "id": 23
+    },
+    {
+      "country_name": "Bermuda",
+      "abbreviation": "bm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BM.png",
+      "phone_code": "1",
+      "id": 24
+    },
+    {
+      "country_name": "Bhutan (འབྲུག)",
+      "abbreviation": "bt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BT.png",
+      "phone_code": "975",
+      "id": 25
+    },
+    {
+      "country_name": "Bolivia",
+      "abbreviation": "bo",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BO.png",
+      "phone_code": "591",
+      "id": 26
+    },
+    {
+      "country_name": "Bosnia and Herzegovina (Босна и Херцеговина)",
+      "abbreviation": "ba",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BA.png",
+      "phone_code": "387",
+      "id": 27
+    },
+    {
+      "country_name": "Botswana",
+      "abbreviation": "bw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BW.png",
+      "phone_code": "267",
+      "id": 28
+    },
+    {
+      "country_name": "Brazil (Brasil)",
+      "abbreviation": "br",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BR.png",
+      "phone_code": "55",
+      "id": 29
+    },
+    {
+      "country_name": "British Indian Ocean Territory",
+      "abbreviation": "io",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IO.png",
+      "phone_code": "246",
+      "id": 30
+    },
+    {
+      "country_name": "British Virgin Islands",
+      "abbreviation": "vg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VG.png",
+      "phone_code": "1",
+      "id": 31
+    },
+    {
+      "country_name": "Brunei",
+      "abbreviation": "bn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BN.png",
+      "phone_code": "673",
+      "id": 32
+    },
+    {
+      "country_name": "Bulgaria (България)",
+      "abbreviation": "bg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BG.png",
+      "phone_code": "359",
+      "id": 33
+    },
+    {
+      "country_name": "Burkina Faso",
+      "abbreviation": "bf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BF.png",
+      "phone_code": "226",
+      "id": 34
+    },
+    {
+      "country_name": "Burundi (Uburundi)",
+      "abbreviation": "bi",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BI.png",
+      "phone_code": "257",
+      "id": 35
+    },
+    {
+      "country_name": "Cambodia (កម្ពុជា)",
+      "abbreviation": "kh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KH.png",
+      "phone_code": "855",
+      "id": 36
+    },
+    {
+      "country_name": "Cameroon (Cameroun)",
+      "abbreviation": "cm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CM.png",
+      "phone_code": "237",
+      "id": 37
+    },
+    {
+      "country_name": "Canada",
+      "abbreviation": "ca",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CA.png",
+      "phone_code": "1",
+      "id": 38
+    },
+    {
+      "country_name": "Cape Verde (Kabu Verdi)",
+      "abbreviation": "cv",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CV.png",
+      "phone_code": "238",
+      "id": 39
+    },
+    {
+      "country_name": "Caribbean Netherlands",
+      "abbreviation": "bq",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BQ.png",
+      "phone_code": "599",
+      "id": 40
+    },
+    {
+      "country_name": "Cayman Islands",
+      "abbreviation": "ky",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KY.png",
+      "phone_code": "1",
+      "id": 41
+    },
+    {
+      "country_name": "Central African Republic (République centrafricaine)",
+      "abbreviation": "cf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CF.png",
+      "phone_code": "236",
+      "id": 42
+    },
+    {
+      "country_name": "Chad (Tchad)",
+      "abbreviation": "td",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TD.png",
+      "phone_code": "235",
+      "id": 43
+    },
+    {
+      "country_name": "Chile",
+      "abbreviation": "cl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CL.png",
+      "phone_code": "56",
+      "id": 44
+    },
+    {
+      "country_name": "China (中国)",
+      "abbreviation": "cn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CN.png",
+      "phone_code": "86",
+      "id": 45
+    },
+    {
+      "country_name": "Christmas Island",
+      "abbreviation": "cx",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CX.png",
+      "phone_code": "61",
+      "id": 46
+    },
+    {
+      "country_name": "Cocos (Keeling) Islands",
+      "abbreviation": "cc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CC.png",
+      "phone_code": "61",
+      "id": 47
+    },
+    {
+      "country_name": "Colombia",
+      "abbreviation": "co",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CO.png",
+      "phone_code": "57",
+      "id": 48
+    },
+    {
+      "country_name": "Comoros (جزر القمر)",
+      "abbreviation": "km",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KM.png",
+      "phone_code": "269",
+      "id": 49
+    },
+    {
+      "country_name": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
+      "abbreviation": "cd",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CD.png",
+      "phone_code": "243",
+      "id": 50
+    },
+    {
+      "country_name": "Congo (Republic) (Congo-Brazzaville)",
+      "abbreviation": "cg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CG.png",
+      "phone_code": "242",
+      "id": 51
+    },
+    {
+      "country_name": "Cook Islands",
+      "abbreviation": "ck",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CK.png",
+      "phone_code": "682",
+      "id": 52
+    },
+    {
+      "country_name": "Costa Rica",
+      "abbreviation": "cr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CR.png",
+      "phone_code": "506",
+      "id": 53
+    },
+    {
+      "country_name": "Côte d’Ivoire",
+      "abbreviation": "ci",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CI.png",
+      "phone_code": "225",
+      "id": 54
+    },
+    {
+      "country_name": "Croatia (Hrvatska)",
+      "abbreviation": "hr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/HR.png",
+      "phone_code": "385",
+      "id": 55
+    },
+    {
+      "country_name": "Cuba",
+      "abbreviation": "cu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CU.png",
+      "phone_code": "53",
+      "id": 56
+    },
+    {
+      "country_name": "Curaçao",
+      "abbreviation": "cw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CW.png",
+      "phone_code": "599",
+      "id": 57
+    },
+    {
+      "country_name": "Cyprus (Κύπρος)",
+      "abbreviation": "cy",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CY.png",
+      "phone_code": "357",
+      "id": 58
+    },
+    {
+      "country_name": "Czech Republic (Česká republika)",
+      "abbreviation": "cz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CZ.png",
+      "phone_code": "420",
+      "id": 59
+    },
+    {
+      "country_name": "Denmark (Danmark)",
+      "abbreviation": "dk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DK.png",
+      "phone_code": "45",
+      "id": 60
+    },
+    {
+      "country_name": "Djibouti",
+      "abbreviation": "dj",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DJ.png",
+      "phone_code": "253",
+      "id": 61
+    },
+    {
+      "country_name": "Dominica",
+      "abbreviation": "dm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DM.png",
+      "phone_code": "1",
+      "id": 62
+    },
+    {
+      "country_name": "Dominican Republic (República Dominicana)",
+      "abbreviation": "do",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DO.png",
+      "phone_code": "1",
+      "id": 63
+    },
+    {
+      "country_name": "Ecuador",
+      "abbreviation": "ec",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/EC.png",
+      "phone_code": "593",
+      "id": 64
+    },
+    {
+      "country_name": "Egypt (مصر)",
+      "abbreviation": "eg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/EG.png",
+      "phone_code": "20",
+      "id": 65
+    },
+    {
+      "country_name": "El Salvador",
+      "abbreviation": "sv",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SV.png",
+      "phone_code": "503",
+      "id": 66
+    },
+    {
+      "country_name": "Equatorial Guinea (Guinea Ecuatorial)",
+      "abbreviation": "gq",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GQ.png",
+      "phone_code": "240",
+      "id": 67
+    },
+    {
+      "country_name": "Eritrea",
+      "abbreviation": "er",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ER.png",
+      "phone_code": "291",
+      "id": 68
+    },
+    {
+      "country_name": "Estonia (Eesti)",
+      "abbreviation": "ee",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/EE.png",
+      "phone_code": "372",
+      "id": 69
+    },
+    {
+      "country_name": "Eswatini",
+      "abbreviation": "sz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SZ.png",
+      "phone_code": "268",
+      "id": 70
+    },
+    {
+      "country_name": "Ethiopia",
+      "abbreviation": "et",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ET.png",
+      "phone_code": "251",
+      "id": 71
+    },
+    {
+      "country_name": "Falkland Islands (Islas Malvinas)",
+      "abbreviation": "fk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FK.png",
+      "phone_code": "500",
+      "id": 72
+    },
+    {
+      "country_name": "Faroe Islands (Føroyar)",
+      "abbreviation": "fo",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FO.png",
+      "phone_code": "298",
+      "id": 73
+    },
+    {
+      "country_name": "Fiji",
+      "abbreviation": "fj",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FJ.png",
+      "phone_code": "679",
+      "id": 74
+    },
+    {
+      "country_name": "Finland (Suomi)",
+      "abbreviation": "fi",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FI.png",
+      "phone_code": "358",
+      "id": 75
+    },
+    {
+      "country_name": "France",
+      "abbreviation": "fr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FR.png",
+      "phone_code": "33",
+      "id": 76
+    },
+    {
+      "country_name": "French Guiana (Guyane française)",
+      "abbreviation": "gf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GF.png",
+      "phone_code": "594",
+      "id": 77
+    },
+    {
+      "country_name": "French Polynesia (Polynésie française)",
+      "abbreviation": "pf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PF.png",
+      "phone_code": "689",
+      "id": 78
+    },
+    {
+      "country_name": "Gabon",
+      "abbreviation": "ga",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GA.png",
+      "phone_code": "241",
+      "id": 79
+    },
+    {
+      "country_name": "Gambia",
+      "abbreviation": "gm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GM.png",
+      "phone_code": "220",
+      "id": 80
+    },
+    {
+      "country_name": "Georgia (საქართველო)",
+      "abbreviation": "ge",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GE.png",
+      "phone_code": "995",
+      "id": 81
+    },
+    {
+      "country_name": "Germany (Deutschland)",
+      "abbreviation": "de",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/DE.png",
+      "phone_code": "49",
+      "id": 82
+    },
+    {
+      "country_name": "Ghana (Gaana)",
+      "abbreviation": "gh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GH.png",
+      "phone_code": "233",
+      "id": 83
+    },
+    {
+      "country_name": "Gibraltar",
+      "abbreviation": "gi",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GI.png",
+      "phone_code": "350",
+      "id": 84
+    },
+    {
+      "country_name": "Greece (Ελλάδα)",
+      "abbreviation": "gr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GR.png",
+      "phone_code": "30",
+      "id": 85
+    },
+    {
+      "country_name": "Greenland (Kalaallit Nunaat)",
+      "abbreviation": "gl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GL.png",
+      "phone_code": "299",
+      "id": 86
+    },
+    {
+      "country_name": "Grenada",
+      "abbreviation": "gd",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GD.png",
+      "phone_code": "1",
+      "id": 87
+    },
+    {
+      "country_name": "Guadeloupe",
+      "abbreviation": "gp",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GP.png",
+      "phone_code": "590",
+      "id": 88
+    },
+    {
+      "country_name": "Guam",
+      "abbreviation": "gu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GU.png",
+      "phone_code": "1",
+      "id": 89
+    },
+    {
+      "country_name": "Guatemala",
+      "abbreviation": "gt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GT.png",
+      "phone_code": "502",
+      "id": 90
+    },
+    {
+      "country_name": "Guernsey",
+      "abbreviation": "gg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GG.png",
+      "phone_code": "44",
+      "id": 91
+    },
+    {
+      "country_name": "Guinea (Guinée)",
+      "abbreviation": "gn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GN.png",
+      "phone_code": "224",
+      "id": 92
+    },
+    {
+      "country_name": "Guinea-Bissau (Guiné Bissau)",
+      "abbreviation": "gw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GW.png",
+      "phone_code": "245",
+      "id": 93
+    },
+    {
+      "country_name": "Guyana",
+      "abbreviation": "gy",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GY.png",
+      "phone_code": "592",
+      "id": 94
+    },
+    {
+      "country_name": "Haiti",
+      "abbreviation": "ht",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/HT.png",
+      "phone_code": "509",
+      "id": 95
+    },
+    {
+      "country_name": "Honduras",
+      "abbreviation": "hn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/HN.png",
+      "phone_code": "504",
+      "id": 96
+    },
+    {
+      "country_name": "Hong Kong (香港)",
+      "abbreviation": "hk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/HK.png",
+      "phone_code": "852",
+      "id": 97
+    },
+    {
+      "country_name": "Hungary (Magyarország)",
+      "abbreviation": "hu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/HU.png",
+      "phone_code": "36",
+      "id": 98
+    },
+    {
+      "country_name": "Iceland (Ísland)",
+      "abbreviation": "is",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IS.png",
+      "phone_code": "354",
+      "id": 99
+    },
+    {
+      "country_name": "India (भारत)",
+      "abbreviation": "in",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IN.png",
+      "phone_code": "91",
+      "id": 100
+    },
+    {
+      "country_name": "Indonesia",
+      "abbreviation": "id",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ID.png",
+      "phone_code": "62",
+      "id": 101
+    },
+    {
+      "country_name": "Iran (ایران)",
+      "abbreviation": "ir",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IR.png",
+      "phone_code": "98",
+      "id": 102
+    },
+    {
+      "country_name": "Iraq (العراق)",
+      "abbreviation": "iq",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IQ.png",
+      "phone_code": "964",
+      "id": 103
+    },
+    {
+      "country_name": "Ireland",
+      "abbreviation": "ie",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IE.png",
+      "phone_code": "353",
+      "id": 104
+    },
+    {
+      "country_name": "Isle of Man",
+      "abbreviation": "im",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IM.png",
+      "phone_code": "44",
+      "id": 105
+    },
+    {
+      "country_name": "Israel (ישראל)",
+      "abbreviation": "il",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IL.png",
+      "phone_code": "972",
+      "id": 106
+    },
+    {
+      "country_name": "Italy (Italia)",
+      "abbreviation": "it",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/IT.png",
+      "phone_code": "39",
+      "id": 107
+    },
+    {
+      "country_name": "Jamaica",
+      "abbreviation": "jm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/JM.png",
+      "phone_code": "1",
+      "id": 108
+    },
+    {
+      "country_name": "Japan (日本)",
+      "abbreviation": "jp",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/JP.png",
+      "phone_code": "81",
+      "id": 109
+    },
+    {
+      "country_name": "Jersey",
+      "abbreviation": "je",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/JE.png",
+      "phone_code": "44",
+      "id": 110
+    },
+    {
+      "country_name": "Jordan (الأردن)",
+      "abbreviation": "jo",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/JO.png",
+      "phone_code": "962",
+      "id": 111
+    },
+    {
+      "country_name": "Kazakhstan (Казахстан)",
+      "abbreviation": "kz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KZ.png",
+      "phone_code": "7",
+      "id": 112
+    },
+    {
+      "country_name": "Kenya",
+      "abbreviation": "ke",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KE.png",
+      "phone_code": "254",
+      "id": 113
+    },
+    {
+      "country_name": "Kiribati",
+      "abbreviation": "ki",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KI.png",
+      "phone_code": "686",
+      "id": 114
+    },
+    {
+      "country_name": "Kosovo",
+      "abbreviation": "xk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/XK.png",
+      "phone_code": "383",
+      "id": 115
+    },
+    {
+      "country_name": "Kuwait (الكويت)",
+      "abbreviation": "kw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KW.png",
+      "phone_code": "965",
+      "id": 116
+    },
+    {
+      "country_name": "Kyrgyzstan (Кыргызстан)",
+      "abbreviation": "kg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KG.png",
+      "phone_code": "996",
+      "id": 117
+    },
+    {
+      "country_name": "Laos (ລາວ)",
+      "abbreviation": "la",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LA.png",
+      "phone_code": "856",
+      "id": 118
+    },
+    {
+      "country_name": "Latvia (Latvija)",
+      "abbreviation": "lv",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LV.png",
+      "phone_code": "371",
+      "id": 119
+    },
+    {
+      "country_name": "Lebanon (لبنان)",
+      "abbreviation": "lb",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LB.png",
+      "phone_code": "961",
+      "id": 120
+    },
+    {
+      "country_name": "Lesotho",
+      "abbreviation": "ls",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LS.png",
+      "phone_code": "266",
+      "id": 121
+    },
+    {
+      "country_name": "Liberia",
+      "abbreviation": "lr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LR.png",
+      "phone_code": "231",
+      "id": 122
+    },
+    {
+      "country_name": "Libya (ليبيا)",
+      "abbreviation": "ly",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LY.png",
+      "phone_code": "218",
+      "id": 123
+    },
+    {
+      "country_name": "Liechtenstein",
+      "abbreviation": "li",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LI.png",
+      "phone_code": "423",
+      "id": 124
+    },
+    {
+      "country_name": "Lithuania (Lietuva)",
+      "abbreviation": "lt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LT.png",
+      "phone_code": "370",
+      "id": 125
+    },
+    {
+      "country_name": "Luxembourg",
+      "abbreviation": "lu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LU.png",
+      "phone_code": "352",
+      "id": 126
+    },
+    {
+      "country_name": "Macau (澳門)",
+      "abbreviation": "mo",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MO.png",
+      "phone_code": "853",
+      "id": 127
+    },
+    {
+      "country_name": "Macedonia (FYROM) (Македонија)",
+      "abbreviation": "mk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MK.png",
+      "phone_code": "389",
+      "id": 128
+    },
+    {
+      "country_name": "Madagascar (Madagasikara)",
+      "abbreviation": "mg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MG.png",
+      "phone_code": "261",
+      "id": 129
+    },
+    {
+      "country_name": "Malawi",
+      "abbreviation": "mw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MW.png",
+      "phone_code": "265",
+      "id": 130
+    },
+    {
+      "country_name": "Malaysia",
+      "abbreviation": "my",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MY.png",
+      "phone_code": "60",
+      "id": 131
+    },
+    {
+      "country_name": "Maldives",
+      "abbreviation": "mv",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MV.png",
+      "phone_code": "960",
+      "id": 132
+    },
+    {
+      "country_name": "Mali",
+      "abbreviation": "ml",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ML.png",
+      "phone_code": "223",
+      "id": 133
+    },
+    {
+      "country_name": "Malta",
+      "abbreviation": "mt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MT.png",
+      "phone_code": "356",
+      "id": 134
+    },
+    {
+      "country_name": "Marshall Islands",
+      "abbreviation": "mh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MH.png",
+      "phone_code": "692",
+      "id": 135
+    },
+    {
+      "country_name": "Martinique",
+      "abbreviation": "mq",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MQ.png",
+      "phone_code": "596",
+      "id": 136
+    },
+    {
+      "country_name": "Mauritania (موريتانيا)",
+      "abbreviation": "mr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MR.png",
+      "phone_code": "222",
+      "id": 137
+    },
+    {
+      "country_name": "Mauritius (Moris)",
+      "abbreviation": "mu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MU.png",
+      "phone_code": "230",
+      "id": 138
+    },
+    {
+      "country_name": "Mayotte",
+      "abbreviation": "yt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/YT.png",
+      "phone_code": "262",
+      "id": 139
+    },
+    {
+      "country_name": "Mexico (México)",
+      "abbreviation": "mx",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MX.png",
+      "phone_code": "52",
+      "id": 140
+    },
+    {
+      "country_name": "Micronesia",
+      "abbreviation": "fm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/FM.png",
+      "phone_code": "691",
+      "id": 141
+    },
+    {
+      "country_name": "Moldova (Republica Moldova)",
+      "abbreviation": "md",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MD.png",
+      "phone_code": "373",
+      "id": 142
+    },
+    {
+      "country_name": "Monaco",
+      "abbreviation": "mc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MC.png",
+      "phone_code": "377",
+      "id": 143
+    },
+    {
+      "country_name": "Mongolia (Монгол)",
+      "abbreviation": "mn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MN.png",
+      "phone_code": "976",
+      "id": 144
+    },
+    {
+      "country_name": "Montenegro (Crna Gora)",
+      "abbreviation": "me",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ME.png",
+      "phone_code": "382",
+      "id": 145
+    },
+    {
+      "country_name": "Montserrat",
+      "abbreviation": "ms",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MS.png",
+      "phone_code": "1",
+      "id": 146
+    },
+    {
+      "country_name": "Morocco (المغرب)",
+      "abbreviation": "ma",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MA.png",
+      "phone_code": "212",
+      "id": 147
+    },
+    {
+      "country_name": "Mozambique (Moçambique)",
+      "abbreviation": "mz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MZ.png",
+      "phone_code": "258",
+      "id": 148
+    },
+    {
+      "country_name": "Myanmar (Burma) (မြန်မာ)",
+      "abbreviation": "mm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MM.png",
+      "phone_code": "95",
+      "id": 149
+    },
+    {
+      "country_name": "Namibia (Namibië)",
+      "abbreviation": "na",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NA.png",
+      "phone_code": "264",
+      "id": 150
+    },
+    {
+      "country_name": "Nauru",
+      "abbreviation": "nr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NR.png",
+      "phone_code": "674",
+      "id": 151
+    },
+    {
+      "country_name": "Nepal (नेपाल)",
+      "abbreviation": "np",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NP.png",
+      "phone_code": "977",
+      "id": 152
+    },
+    {
+      "country_name": "Netherlands (Nederland)",
+      "abbreviation": "nl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NL.png",
+      "phone_code": "31",
+      "id": 153
+    },
+    {
+      "country_name": "New Caledonia (Nouvelle-Calédonie)",
+      "abbreviation": "nc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NC.png",
+      "phone_code": "687",
+      "id": 154
+    },
+    {
+      "country_name": "New Zealand",
+      "abbreviation": "nz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NZ.png",
+      "phone_code": "64",
+      "id": 155
+    },
+    {
+      "country_name": "Nicaragua",
+      "abbreviation": "ni",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NI.png",
+      "phone_code": "505",
+      "id": 156
+    },
+    {
+      "country_name": "Niger (Nijar)",
+      "abbreviation": "ne",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NE.png",
+      "phone_code": "227",
+      "id": 157
+    },
+    {
+      "country_name": "Nigeria",
+      "abbreviation": "ng",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NG.png",
+      "phone_code": "234",
+      "id": 158
+    },
+    {
+      "country_name": "Niue",
+      "abbreviation": "nu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NU.png",
+      "phone_code": "683",
+      "id": 159
+    },
+    {
+      "country_name": "Norfolk Island",
+      "abbreviation": "nf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NF.png",
+      "phone_code": "672",
+      "id": 160
+    },
+    {
+      "country_name": "North Korea (조선 민주주의 인민 공화국)",
+      "abbreviation": "kp",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KP.png",
+      "phone_code": "850",
+      "id": 161
+    },
+    {
+      "country_name": "Northern Mariana Islands",
+      "abbreviation": "mp",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MP.png",
+      "phone_code": "1",
+      "id": 162
+    },
+    {
+      "country_name": "Norway (Norge)",
+      "abbreviation": "no",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/NO.png",
+      "phone_code": "47",
+      "id": 163
+    },
+    {
+      "country_name": "Oman (عُمان)",
+      "abbreviation": "om",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/OM.png",
+      "phone_code": "968",
+      "id": 164
+    },
+    {
+      "country_name": "Pakistan (پاکستان)",
+      "abbreviation": "pk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PK.png",
+      "phone_code": "92",
+      "id": 165
+    },
+    {
+      "country_name": "Palau",
+      "abbreviation": "pw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PW.png",
+      "phone_code": "680",
+      "id": 166
+    },
+    {
+      "country_name": "Palestine (فلسطين)",
+      "abbreviation": "ps",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PS.png",
+      "phone_code": "970",
+      "id": 167
+    },
+    {
+      "country_name": "Panama (Panamá)",
+      "abbreviation": "pa",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PA.png",
+      "phone_code": "507",
+      "id": 168
+    },
+    {
+      "country_name": "Papua New Guinea",
+      "abbreviation": "pg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PG.png",
+      "phone_code": "675",
+      "id": 169
+    },
+    {
+      "country_name": "Paraguay",
+      "abbreviation": "py",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PY.png",
+      "phone_code": "595",
+      "id": 170
+    },
+    {
+      "country_name": "Peru (Perú)",
+      "abbreviation": "pe",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PE.png",
+      "phone_code": "51",
+      "id": 171
+    },
+    {
+      "country_name": "Philippines",
+      "abbreviation": "ph",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PH.png",
+      "phone_code": "63",
+      "id": 172
+    },
+    {
+      "country_name": "Poland (Polska)",
+      "abbreviation": "pl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PL.png",
+      "phone_code": "48",
+      "id": 173
+    },
+    {
+      "country_name": "Portugal",
+      "abbreviation": "pt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PT.png",
+      "phone_code": "351",
+      "id": 174
+    },
+    {
+      "country_name": "Puerto Rico",
+      "abbreviation": "pr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PR.png",
+      "phone_code": "1",
+      "id": 175
+    },
+    {
+      "country_name": "Qatar (قطر)",
+      "abbreviation": "qa",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/QA.png",
+      "phone_code": "974",
+      "id": 176
+    },
+    {
+      "country_name": "Réunion (La Réunion)",
+      "abbreviation": "re",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/RE.png",
+      "phone_code": "262",
+      "id": 177
+    },
+    {
+      "country_name": "Romania (România)",
+      "abbreviation": "ro",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/RO.png",
+      "phone_code": "40",
+      "id": 178
+    },
+    {
+      "country_name": "Russia (Россия)",
+      "abbreviation": "ru",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/RU.png",
+      "phone_code": "7",
+      "id": 179
+    },
+    {
+      "country_name": "Rwanda",
+      "abbreviation": "rw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/RW.png",
+      "phone_code": "250",
+      "id": 180
+    },
+    {
+      "country_name": "Saint Barthélemy",
+      "abbreviation": "bl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/BL.png",
+      "phone_code": "590",
+      "id": 181
+    },
+    {
+      "country_name": "Saint Helena",
+      "abbreviation": "sh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SH.png",
+      "phone_code": "290",
+      "id": 182
+    },
+    {
+      "country_name": "Saint Kitts and Nevis",
+      "abbreviation": "kn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KN.png",
+      "phone_code": "1",
+      "id": 183
+    },
+    {
+      "country_name": "Saint Lucia",
+      "abbreviation": "lc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LC.png",
+      "phone_code": "1",
+      "id": 184
+    },
+    {
+      "country_name": "Saint Martin (Saint-Martin (partie française))",
+      "abbreviation": "mf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/MF.png",
+      "phone_code": "590",
+      "id": 185
+    },
+    {
+      "country_name": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)",
+      "abbreviation": "pm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/PM.png",
+      "phone_code": "508",
+      "id": 186
+    },
+    {
+      "country_name": "Saint Vincent and the Grenadines",
+      "abbreviation": "vc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VC.png",
+      "phone_code": "1",
+      "id": 187
+    },
+    {
+      "country_name": "Samoa",
+      "abbreviation": "ws",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/WS.png",
+      "phone_code": "685",
+      "id": 188
+    },
+    {
+      "country_name": "San Marino",
+      "abbreviation": "sm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SM.png",
+      "phone_code": "378",
+      "id": 189
+    },
+    {
+      "country_name": "São Tomé and Príncipe (São Tomé e Príncipe)",
+      "abbreviation": "st",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ST.png",
+      "phone_code": "239",
+      "id": 190
+    },
+    {
+      "country_name": "Saudi Arabia (المملكة العربية السعودية)",
+      "abbreviation": "sa",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SA.png",
+      "phone_code": "966",
+      "id": 191
+    },
+    {
+      "country_name": "Senegal (Sénégal)",
+      "abbreviation": "sn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SN.png",
+      "phone_code": "221",
+      "id": 192
+    },
+    {
+      "country_name": "Serbia (Србија)",
+      "abbreviation": "rs",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/RS.png",
+      "phone_code": "381",
+      "id": 193
+    },
+    {
+      "country_name": "Seychelles",
+      "abbreviation": "sc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SC.png",
+      "phone_code": "248",
+      "id": 194
+    },
+    {
+      "country_name": "Sierra Leone",
+      "abbreviation": "sl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SL.png",
+      "phone_code": "232",
+      "id": 195
+    },
+    {
+      "country_name": "Singapore",
+      "abbreviation": "sg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SG.png",
+      "phone_code": "65",
+      "id": 196
+    },
+    {
+      "country_name": "Sint Maarten",
+      "abbreviation": "sx",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SX.png",
+      "phone_code": "1",
+      "id": 197
+    },
+    {
+      "country_name": "Slovakia (Slovensko)",
+      "abbreviation": "sk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SK.png",
+      "phone_code": "421",
+      "id": 198
+    },
+    {
+      "country_name": "Slovenia (Slovenija)",
+      "abbreviation": "si",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SI.png",
+      "phone_code": "386",
+      "id": 199
+    },
+    {
+      "country_name": "Solomon Islands",
+      "abbreviation": "sb",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SB.png",
+      "phone_code": "677",
+      "id": 200
+    },
+    {
+      "country_name": "Somalia (Soomaaliya)",
+      "abbreviation": "so",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SO.png",
+      "phone_code": "252",
+      "id": 201
+    },
+    {
+      "country_name": "South Africa",
+      "abbreviation": "za",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ZA.png",
+      "phone_code": "27",
+      "id": 202
+    },
+    {
+      "country_name": "South Korea (대한민국)",
+      "abbreviation": "kr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/KR.png",
+      "phone_code": "82",
+      "id": 203
+    },
+    {
+      "country_name": "South Sudan (جنوب السودان)",
+      "abbreviation": "ss",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SS.png",
+      "phone_code": "211",
+      "id": 204
+    },
+    {
+      "country_name": "Spain (España)",
+      "abbreviation": "es",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ES.png",
+      "phone_code": "34",
+      "id": 205
+    },
+    {
+      "country_name": "Sri Lanka (ශ්‍රී ලංකාව)",
+      "abbreviation": "lk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/LK.png",
+      "phone_code": "94",
+      "id": 206
+    },
+    {
+      "country_name": "Sudan (السودان)",
+      "abbreviation": "sd",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SD.png",
+      "phone_code": "249",
+      "id": 207
+    },
+    {
+      "country_name": "Suriname",
+      "abbreviation": "sr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SR.png",
+      "phone_code": "597",
+      "id": 208
+    },
+    {
+      "country_name": "Svalbard and Jan Mayen",
+      "abbreviation": "sj",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SJ.png",
+      "phone_code": "47",
+      "id": 209
+    },
+    {
+      "country_name": "Sweden (Sverige)",
+      "abbreviation": "se",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SE.png",
+      "phone_code": "46",
+      "id": 210
+    },
+    {
+      "country_name": "Switzerland (Schweiz)",
+      "abbreviation": "ch",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/CH.png",
+      "phone_code": "41",
+      "id": 211
+    },
+    {
+      "country_name": "Syria (سوريا)",
+      "abbreviation": "sy",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/SY.png",
+      "phone_code": "963",
+      "id": 212
+    },
+    {
+      "country_name": "Taiwan (台灣)",
+      "abbreviation": "tw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TW.png",
+      "phone_code": "886",
+      "id": 213
+    },
+    {
+      "country_name": "Tajikistan",
+      "abbreviation": "tj",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TJ.png",
+      "phone_code": "992",
+      "id": 214
+    },
+    {
+      "country_name": "Tanzania",
+      "abbreviation": "tz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TZ.png",
+      "phone_code": "255",
+      "id": 215
+    },
+    {
+      "country_name": "Thailand (ไทย)",
+      "abbreviation": "th",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TH.png",
+      "phone_code": "66",
+      "id": 216
+    },
+    {
+      "country_name": "Timor-Leste",
+      "abbreviation": "tl",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TL.png",
+      "phone_code": "670",
+      "id": 217
+    },
+    {
+      "country_name": "Togo",
+      "abbreviation": "tg",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TG.png",
+      "phone_code": "228",
+      "id": 218
+    },
+    {
+      "country_name": "Tokelau",
+      "abbreviation": "tk",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TK.png",
+      "phone_code": "690",
+      "id": 219
+    },
+    {
+      "country_name": "Tonga",
+      "abbreviation": "to",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TO.png",
+      "phone_code": "676",
+      "id": 220
+    },
+    {
+      "country_name": "Trinidad and Tobago",
+      "abbreviation": "tt",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TT.png",
+      "phone_code": "1",
+      "id": 221
+    },
+    {
+      "country_name": "Tunisia (تونس)",
+      "abbreviation": "tn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TN.png",
+      "phone_code": "216",
+      "id": 222
+    },
+    {
+      "country_name": "Turkey (Türkiye)",
+      "abbreviation": "tr",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TR.png",
+      "phone_code": "90",
+      "id": 223
+    },
+    {
+      "country_name": "Turkmenistan",
+      "abbreviation": "tm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TM.png",
+      "phone_code": "993",
+      "id": 224
+    },
+    {
+      "country_name": "Turks and Caicos Islands",
+      "abbreviation": "tc",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TC.png",
+      "phone_code": "1",
+      "id": 225
+    },
+    {
+      "country_name": "Tuvalu",
+      "abbreviation": "tv",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/TV.png",
+      "phone_code": "688",
+      "id": 226
+    },
+    {
+      "country_name": "U.S. Virgin Islands",
+      "abbreviation": "vi",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VI.png",
+      "phone_code": "1",
+      "id": 227
+    },
+    {
+      "country_name": "Uganda",
+      "abbreviation": "ug",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/UG.png",
+      "phone_code": "256",
+      "id": 228
+    },
+    {
+      "country_name": "Ukraine (Україна)",
+      "abbreviation": "ua",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/UA.png",
+      "phone_code": "380",
+      "id": 229
+    },
+    {
+      "country_name": "United Arab Emirates (الإمارات العربية المتحدة)",
+      "abbreviation": "ae",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AE.png",
+      "phone_code": "971",
+      "id": 230
+    },
+    {
+      "country_name": "United Kingdom",
+      "abbreviation": "gb",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/GB.png",
+      "phone_code": "44",
+      "id": 231
+    },
+    {
+      "country_name": "United States",
+      "abbreviation": "us",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/US.png",
+      "phone_code": "1",
+      "id": 232
+    },
+    {
+      "country_name": "Uruguay",
+      "abbreviation": "uy",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/UY.png",
+      "phone_code": "598",
+      "id": 233
+    },
+    {
+      "country_name": "Uzbekistan (Oʻzbekiston)",
+      "abbreviation": "uz",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/UZ.png",
+      "phone_code": "998",
+      "id": 234
+    },
+    {
+      "country_name": "Vanuatu",
+      "abbreviation": "vu",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VU.png",
+      "phone_code": "678",
+      "id": 235
+    },
+    {
+      "country_name": "Vatican City (Città del Vaticano)",
+      "abbreviation": "va",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VA.png",
+      "phone_code": "39",
+      "id": 236
+    },
+    {
+      "country_name": "Venezuela",
+      "abbreviation": "ve",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VE.png",
+      "phone_code": "58",
+      "id": 237
+    },
+    {
+      "country_name": "Vietnam (Việt Nam)",
+      "abbreviation": "vn",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/VN.png",
+      "phone_code": "84",
+      "id": 238
+    },
+    {
+      "country_name": "Wallis and Futuna (Wallis-et-Futuna)",
+      "abbreviation": "wf",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/WF.png",
+      "phone_code": "681",
+      "id": 239
+    },
+    {
+      "country_name": "Western Sahara (الصحراء الغربية)",
+      "abbreviation": "eh",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/EH.png",
+      "phone_code": "212",
+      "id": 240
+    },
+    {
+      "country_name": "Yemen (اليمن)",
+      "abbreviation": "ye",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/YE.png",
+      "phone_code": "967",
+      "id": 241
+    },
+    {
+      "country_name": "Zambia",
+      "abbreviation": "zm",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ZM.png",
+      "phone_code": "260",
+      "id": 242
+    },
+    {
+      "country_name": "Zimbabwe",
+      "abbreviation": "zw",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/ZW.png",
+      "phone_code": "263",
+      "id": 243
+    },
+    {
+      "country_name": "Åland Islands",
+      "abbreviation": "ax",
+      "flag": "https://raw.githubusercontent.com/fonttools/region-flags/gh-pages/png/AX.png",
+      "phone_code": "358",
+      "id": 244
+    }
+  ]
+}

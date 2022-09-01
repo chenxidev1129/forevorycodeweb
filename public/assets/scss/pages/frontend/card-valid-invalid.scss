@@ -1,0 +1,37 @@
+.cardValidInvalid{
+	@include flexcenter(both);min-height: 100vh;height: 100%; 
+	&_wrap{
+		width:620px;padding:32px;border-radius: 15px;box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.05);
+		h1{margin-top: 15px;}
+		p{margin:40px 0; font-size: 18px;}
+		&.cardValid{
+			h1{color:#00A915;}
+			.btn{background-color:#00A915;color:color(50); }
+		}
+		&.cardInvalid{
+			h1{color:#EF0102;}
+			.btn{background-color:#EF0102;color:color(50); }
+		}
+
+		@media (max-width: 1599px){
+			p{margin:30px 0;}
+		}
+
+		@include media-breakpoint-down(lg) {
+			p{font-size: 16px;}
+			.btn{min-width: 130px;}
+		}
+		@include media-breakpoint-down(md) {
+			img{width:40px;}
+		}
+		@include media-breakpoint-down(sm) {
+			p{margin:20px 0;}
+			img{width: 30px;}
+		}
+
+		@include media-breakpoint-down(xs) {
+			width: 100%; margin:0 15px; padding:40px 20px;border-radius: 10px;
+			p{font-size: 15px;}
+		}
+	}
+}

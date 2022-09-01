@@ -1,0 +1,32 @@
+.voiceRecord{
+	.modal-header{
+		border-bottom: 0;
+ 		.modal-title{font-family: font(nbd);}
+ 		.close{
+			font-size: 14px;color:color(500);opacity: 1;
+			transition:all 0.5s;
+			&:hover{
+				opacity: 0.8;   
+			}
+		}
+	}
+	.modal-body{
+		padding-top:30px;padding-bottom:50px;
+		.commonSec{
+			display: none;
+		}
+		.speakNow{
+			.icon{display: block; font-size: 50px;  margin: 20px 0 10px; color:color(500);}
+			.duration{ font-size: 34px; line-height: normal;}
+			.btn-primary{
+				em{font-size: 20px;}
+			}
+			.player{margin:25px 0}
+		}
+		.yourRecording{
+			.recordPlayer{margin:30px 0;}
+		}
+		.green-audio-player .slider .gap-progress .pin, 
+		.green-audio-player .slider .gap-progress{    background-color: color(500) !important;}
+	}
+}

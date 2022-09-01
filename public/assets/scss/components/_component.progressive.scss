@@ -1,0 +1,30 @@
+.progressive {
+    overflow: hidden;
+    position: relative;
+    background: transparent; 
+    &__img{        
+        transform: translateZ(0);
+    }
+    &--not{
+        &-loaded{
+            filter: blur(30px);
+            transform: scale(1.1);
+        }
+    }
+    &--is{
+        &-loaded{
+            filter: blur(20px);
+            animation: a 0.5s both;
+            transform: scale(1);
+        }
+    }
+}
+
+@keyframes a {
+    0% {
+        filter: blur(20px);
+    }
+    to {
+        filter: blur(0);
+    }
+}

@@ -1,0 +1,28 @@
+.accessDeniedPage{
+	min-height: calc(100vh - 80px); @include flexcenter(both);
+	img{
+		@include media-breakpoint-up(xl) {max-width: 1000px;}
+	}
+	h1{color:color(400); font-size: 56px; margin:20px 0;}
+	p{font-size: 20px; font-family: font(md);}
+
+	@media (max-width: 1599px) {
+		h1{font-size: 44px; margin: 20px 0;}
+		p{font-size: 18px;}
+	}
+
+	@include media-breakpoint-down(lg) {
+		h1{font-size: 40px;}
+		p{font-size: 17px;}
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding:20px 0;
+		h1{font-size: 30px; margin:15px 0;}
+		p{font-size: 16px;}
+	}
+	@include media-breakpoint-down(xs) {
+		h1{font-size: 22px; margin:15px 0;}
+		p{font-size: 15px;}
+	}
+}

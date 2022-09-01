@@ -1,0 +1,52 @@
+// color variables
+$colors:(
+    50:  #ffffff,
+    100: #B8B8B8,
+    400: #1890FF,
+    450: #35BDF3, 
+    500: #0F35FF,
+    600: #04CA8D,
+    650: #FFA7D1,
+    700: #FFDC45,
+    800: #E83F3F,
+    900: #000000, 
+);
+
+
+@function color($color) {
+    @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);
+  }
+  @error "Unknown `#{$color}` in $colors.";
+  @return null;
+}
+
+//fonts
+$fonts : (
+    rg   : 'InterRegular',
+    lt   : 'InterLight',
+    md   : 'InterMedium',
+    sm   : 'InterSemiBold',
+    bd   : 'InterBold',
+    bk   : 'InterBlack',
+    nrg  : 'NotoSerifRegular',
+    nbd  : 'PoppinsBold',
+   
+);
+
+@function font($font) {
+    // checking to see if our $theme-fonts map has that $font key
+    @if map-has-key($fonts, $font) {
+    // and if so, it will get that font for us in the map-get syntax
+    @return map-get($fonts, $font);
+  }
+    // if not, it will give us a helpful error when we compile
+  @error "Unknown `#{$font}` in $fonts.";
+  @return null;
+}
+
+
+$imageurl       :    "../images";
+$fonturl        :    "../fonts";
+
+

@@ -1,0 +1,282 @@
+.form-group,.input-group {
+   position: relative; margin-bottom: 24px;
+   label {
+      // font-size:20px;
+      font-size:16px; font-family: font(nbd);  margin-bottom: 8px;line-height: 20px;
+   }
+  .form-control {
+      border-color:color(900);color:color(900);background-color:color(50);border-radius:0;background-clip:initial;
+      padding:13px 16px;height:45px;border-radius:8px;
+      &:focus {
+         outline: none; -webkit-box-shadow: none; box-shadow: none; border-color: color(500);
+      }
+      &:valid, &:invalid {
+         &:focus { outline: none; -webkit-box-shadow: none; box-shadow: none; }
+      }
+      &:disabled, &[readonly]{background-color:#edecec;color:color(900)}
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+  }
+  textarea {
+    resize: none;
+  }
+  textarea.form-control {
+    height: auto;
+  }
+
+  @include placeholder {
+    color:rgba(color(900), 0.5);
+  }
+
+  .dateIcon,
+  .timeIcon {
+    position: relative;
+    input {
+      padding-right: 40px;
+    }
+    &:after {
+      right: 15px;
+      position: absolute;
+      top: 16px;
+      content: "\e905";
+      font-family: "icomoon";
+      color: #b1b2b4;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+  .dateIcon {
+    &:after {
+      content: "\e906";
+    }
+  }
+  .cke_contents.cke_reset{
+    min-height:250px;
+  }
+  &.gender-field{
+    &.has-error{
+      padding-bottom:22px;position: relative;
+      #gender-error{
+        position: absolute;
+        bottom:0px;
+        left:7px;
+      }
+    }
+  }
+  @media (max-width: 1599px) {
+    margin-bottom: 20px;
+    label{font-size: 16px;}
+    .form-control {
+      height: 45px;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .dateIcon,
+    .timeIcon {
+      &:after {
+        top: 14px;
+      }
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 20px;
+    label{font-size: 15px;}
+    .form-control {
+      height: 36px;padding: 6px 15px; font-size: 15px;
+    }
+    .dateIcon,
+    .timeIcon {
+      &:after {
+        top: 10px;
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+    .cke_contents.cke_reset{
+      min-height:200px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 15px;
+    label, .form-control{font-size: 14px;}
+  }
+
+  
+}
+
+
+
+// custom radio and checkbox
+.custom-checkbox, .custom-radio {
+  padding-left: 28px;
+  line-height: normal;
+  min-height: auto;
+  &.custom-control-inline {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .custom-control-input {
+    z-index: 1;
+    cursor: pointer;
+    &:focus {
+      ~ .custom-control-label {
+        &:before {
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+    }
+    &:not(:disabled):active ~ .custom-control-label::before {
+      background-color: color(50);
+      border-color: #d6d6d6;
+    }
+    &:focus:not(:checked) ~ .custom-control-label::before {
+      border-color: #d6d6d6;
+    }
+  }
+  &.interactive-effect {
+    .custom-control-label {
+      &:after {
+        -webkit-animation: radius-shadow 0.4s;
+        animation: radius-shadow 0.4s;
+      }
+    }
+  }
+  .custom-control-input:checked ~ .custom-control-label {
+    &:before {
+      border-color: color(600);
+      border-radius: 3px;
+      background: color(600);
+    }
+  }
+  .custom-control-label {
+    width: 100%;
+    cursor: pointer;
+    position: static;
+    color: color(900);
+    font-family: font(rg);
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      display: block;
+      width: 19px;
+      height: 19px;
+      border-radius: 3px;
+      background: color(50);
+      top: 2px;
+      border: 1.5px solid #d6d6d6;
+      cursor: pointer;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 3px;
+      top: 4px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+  }
+  &.custom-radio {
+    min-height: 19px;
+    .custom-control-input:checked ~ .custom-control-label {
+      color: color(900);
+      font-family: font(md);
+      &:after {
+        background-color: color(500);
+        background-image: none;
+        content: "";
+        border-radius: 50%;
+      }
+      &:before {
+        border-color: color(500);
+        border-radius: 50%;
+        background-color: transparent;
+      }
+    }
+    .custom-control-label {
+      &:before,
+      &:after {
+        border-radius: 50%;
+        content: "";
+        border-color: #d6d6d6;
+      }
+      &:before {
+        height: 16px;
+        width: 16px;
+        border-width: 1px;
+      }
+      &:after {
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+        left: 3px;
+        top: 5px;
+        background-color: #d6d6d6;
+      }
+    }
+  }
+}
+
+.custom-checkbox {
+  padding-left: 30px; min-height: 23px;
+  .custom-control-input:checked ~ .custom-control-label {
+    color: color(900);
+    &:before {
+      border-color: color(500);
+      border-radius: 3px;
+      background: color(500);
+    }
+    &:after {
+      background-size: 10px;
+      width: 20px;
+      height: 20px;
+      left: 0;
+      top: 3px;
+    }
+  }
+  .custom-control-input {
+      width:20px;height:20px;top:3px;
+  }
+  .custom-control-label {
+    font-size: 14px;
+    color: color(900);
+    min-height: 16px;
+    vertical-align: baseline;
+    line-height: normal;
+    padding-top: 4px;
+    margin-bottom: 0;
+    &:before {
+      width: 20px;
+      height: 20px;
+      border-width: 1px;
+      top: 3px;
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    .custom-control-label{padding-top: 2px;}
+    .custom-control-label:before{width: 16px;height: 16px;}
+    .custom-control-input:checked ~ .custom-control-label {
+      &:after{width: 16px;height: 16px; background-size: 8px;}
+    }
+  }
+}
+input:-internal-autofill-selected {
+  -webkit-appearance: menulist-button;
+  background-color: rgb(247, 248, 249) !important;
+  background-image: none !important;
+  color: -internal-light-dark-color(black, white) !important;
+  font: 18px font(rg) !important;
+}

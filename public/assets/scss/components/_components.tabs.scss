@@ -1,0 +1,40 @@
+.customTabs{
+    .nav-pills{
+        border-bottom: 1px solid color(100);margin-bottom: 40px;
+        .nav-item{
+            &:not(:last-child){margin-right: 32px;}
+        }
+        .nav-link{
+            @include font-size($h15-font-sizes);color:color(500);position: relative;
+            font-family: font(bd);padding:0 0 8px; 
+            &:before{
+                content:""; width:0;height:2px;background-color:color(500);
+                position: absolute;left:0;bottom:-1px;@include transition(width 0.5s);
+            }
+            &:hover, &.active{
+                background-color:transparent;
+                &:before{width: 100%;}
+            }
+        }
+
+        @media (max-width: 1599px){
+            margin-bottom: 30px;
+        }
+
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 20px;
+        }
+
+        @include media-breakpoint-down(xs) {
+            white-space: nowrap; flex-wrap: nowrap; overflow-x: auto;
+            padding-bottom:10px; position: relative;border-bottom: 0;
+            &:before{content:"";position:absolute;bottom:10px;left:0;height: 1px; width: 150%;background-color:color(100);}
+            .nav-item{
+                &:not(:last-child){margin-right: 15px;}
+            }
+            .nav-link{
+                &:before{bottom:0;}
+            }
+        }
+    }
+}

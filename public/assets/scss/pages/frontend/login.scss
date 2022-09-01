@@ -1,0 +1,175 @@
+.loginPage{
+	.loginWrap{
+		@include flexcenter(both);min-height: 100vh;height: 100%; 
+		&.frontEnd{
+			background: linear-gradient(107.42deg, #E1F7FF 0%, #35BDF3 101.95%);
+			.logo{
+				margin-bottom: 24px;
+		     	img{width: 245px;}
+			}
+			.loginWrap_inner{box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);}
+		}
+		.content{
+			padding-right: 160px;
+			max-width: 650px;
+			p{font-family: font(nbd); margin-bottom: 0; font-size: 20px;}
+		}
+		.form, &_outer{
+			width:620px;
+		}
+		&_inner{
+			padding:32px;border-radius: 15px;box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.05);
+		}
+		.separator{
+			font-size: 15px; color:#7C7C7C; margin: 40px 0;
+			&:before, &:after{
+				content:"";
+				border-bottom:1px solid #7c7c7c;
+				flex:1;
+			}
+			&:before{ margin-right: 10px; }
+			&:after{ margin-left: 10px; }
+		}
+		&_logo{margin-bottom: 20px;}
+		h1{margin-bottom: 60px;}
+
+		.otherLoginButtons{
+		  border-bottom: 1px solid #7C7C7C;padding-bottom: 30px;
+			em{margin-right: 8px; font-size: 18px;}
+			.google{
+				border-color:#5186EC; background:#5186EC;
+				&:hover, &:active, &:not(:disabled):not(.disabled):active {
+					background:lighten(#5186EC, 4%); border-color: lighten(#5186EC, 4%);;
+				  }
+				  &:focus{border-color: #5186EC; background:#5186EC;}
+			}
+		}
+		.uploadProfile{
+			width: 100px;height: 100px; 
+			img{width: 100%;height: 100%; }
+			label{
+				width: 100%;height: 100%; cursor: pointer;border:1px solid #dddee3;background: #f8f9fe;
+				transition:all 0.5s;position: absolute;left:0;top:0;
+				&:hover{border-color:color(500);em{color:color(500);} }
+			}
+			em{font-size: 26px; @include absolutecenter(both); color:#dddee3;}
+
+			&.show{
+				label{
+					background-color: rgba(color(900), 0.5); 
+					&:hover {
+						background-color: rgba(color(900), 0.2);
+						em{color:color(500);}
+					}
+				}
+			}
+		}
+
+		.passwordField{
+			input{padding-right: 36px;}
+			.showPassword{
+				position: absolute;top:13px; right:10px;font-size: 20px; color:color(100);
+				line-height: 10px;
+			}
+		}
+
+		@media (max-width: 1599px) {
+			&.frontEnd{
+				.logo{
+					margin-bottom: 15px;
+					img{ width: 215px;}
+				}
+			}
+			h1{margin-bottom: 40px;}
+			.form{width: 520px;}
+			.content{
+				padding-right: 100px; max-width: 550px;
+				p{font-size: 18px;}
+			}
+			.separator{margin: 30px 0;}
+		}
+
+		@include media-breakpoint-down(lg) {
+			&.frontEnd{
+				.logo{
+					img{ width: 185px;}
+				}
+			}
+			.form{width: 450px;}
+			.content{
+				padding-right: 30px; max-width: 450px;
+				p{font-size: 16px;}
+			}
+			h1{margin-bottom: 30px;}
+			&_outer{width: 550px;}
+			&_logo img{max-width: 190px;}
+			&_inner{padding:20px;}
+			.separator{margin: 20px 0; font-size: 14px;}
+			
+		}
+		@include media-breakpoint-down(md){
+			&.frontEnd{
+				.logo{
+					img{ width: 170px;}
+				}
+			}
+			.content{
+				padding-right: 15px; max-width: 330px;
+				p{font-size: 14px;}
+			}
+			.form{width: 400px;}
+		}
+
+		@include media-breakpoint-down(sm) {
+			&.frontEnd{
+				padding: 15px;
+				flex-direction: column;
+			}
+			.content{
+				padding-right: 0; max-width:450px;
+				text-align: center;
+				margin-bottom: 15px;
+			}
+			.form{width: 400px;}
+			.uploadProfile{
+				width: 90px;height: 90px;
+				label{
+					em{font-size: 20px;}
+				}
+			}
+			.passwordField{
+				.showPassword{
+					font-size: 18px;
+				}
+			}
+			.separator{margin: 15px 0;}
+		}
+
+		@include media-breakpoint-down(xs) {
+			h1{margin-bottom: 20px;}
+			.iti{width: 100%;}
+			&_outer{width: 100%; padding-left: 15px;padding-right: 15px;}
+			&_logo img{max-width: 150px;}
+			&_inner{padding:15px; border-radius: 10px;}
+			.otherLoginButtons{
+			    padding-bottom: 20px;
+			}
+			.separator{font-size: 13px;}
+			.passwordField{
+				.showPassword{
+					top:9px; 
+				}
+			}
+		}
+		@media(max-width:440px){
+			.form{width: 100%;}
+		}
+	}
+}
+
+
+.changePasswordPage{
+	.loginWrap{
+		min-height: calc(100vh - 80px); padding:30px 0;
+	}
+}

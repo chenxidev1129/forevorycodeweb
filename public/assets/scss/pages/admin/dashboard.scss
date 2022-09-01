@@ -1,0 +1,91 @@
+.dashboard{
+
+	// activity
+	.activity{
+		&_outer{
+			margin-top: 16px; 
+		}
+		@include media-breakpoint-down(xs) {
+			&_wrap{overflow-y: auto; padding-bottom: 10px;}
+			&_outer{width:850px;}
+		}
+	}
+
+	// activity profile
+	.activityProfile{
+		padding:0 8px; margin-top: 32px;
+		.row {
+	        margin-left:-32px;margin-right:-32px;
+	        > .col, > [class*="col-"]{
+	        	padding-left: 32px;padding-right: 32px;
+	        	&:not(:first-child){border-left:1px solid color(100);}
+	        }
+	    }
+		h6{margin-bottom: 20px;}
+		.staticBox{
+			background-color: color(50);@include flexcenter(both);padding:20px;
+			box-shadow: 0px 4px 12px rgba(color(900), 0.15);border-radius: 8px;
+			-ms-flex-direction: column;  flex-direction: column; height: calc(100% - 42px);
+			h2{font-family: font(bk); font-size: 72px;}
+			h3{font-family: font(bk); font-size: 48px;}
+			p{font-size: 24px; font-family: font(bk);}
+			.text-success{color:color(600) !important;}
+			.text-danger{color:color(800) !important;}
+		}
+		.secondColumn{
+			&_box{
+				+ .secondColumn_box{margin-top: 74px;}
+			}
+		}
+
+		@media (max-width: 1599px){
+			.staticBox{
+				margin-top: auto;
+				h2{font-size: 50px;}
+				h3{font-size: 36px;}
+				p{font-size: 20px;}
+			}
+			.secondColumn{
+				&_box{
+					+ .secondColumn_box{margin-top: 30px;}
+				}
+			}
+		}
+
+		@include media-breakpoint-down(lg) {
+			padding:0;margin-top: 20px;
+			h6{margin-bottom: 15px;}
+			.row {
+		        margin-left:-15px;margin-right:-15px;
+		        > .col, > [class*="col-"]{
+		        	padding-left: 15px;padding-right: 15px;
+		        }
+		    }
+		    .staticBox{
+				margin-top: auto;padding:15px;
+				h2{font-size: 32px;}
+				h3{font-size: 26px;}
+				p{font-size: 18px;}
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			.staticBox{
+				h2{font-size: 28px;}
+				h3{font-size: 22px;}
+				p{font-size: 16px;}
+			}
+		}
+
+		@include media-breakpoint-down(xs) {
+			margin-top: 15px;
+			.row {> .col, > [class*="col-"]{margin-bottom: 15px; border:0;}}
+			.staticBox{
+				padding:25px 15px;
+				h2{font-size: 20px;}
+				h3{font-size: 20px;}
+				p{font-size: 14px;}
+			}
+		}
+	}
+}

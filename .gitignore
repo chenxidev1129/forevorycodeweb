@@ -1,0 +1,7 @@
+/vendor/
+.env
+storage
+public/uploads/profile
+public/storage
+public/swagger/json/params.php
+/node_modules

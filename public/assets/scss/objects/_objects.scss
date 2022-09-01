@@ -1,0 +1,104 @@
+.container {
+    @media(min-width:1500px){
+      max-width:1470px
+    }
+    @include media-breakpoint-down(md){
+      max-width:100%;
+    }
+}
+
+.topPad{
+    padding-top:80px;
+    @media(max-width:1500px){
+        padding-top:70px;
+    }
+    @include media-breakpoint-down(lg) {
+        padding-top:52px;
+    }
+}
+
+.adminPageContent{
+    padding:24px;
+    @include media-breakpoint-down(lg) {
+        padding:15px;
+    }
+}
+
+
+.row{
+    &-xxxl {
+        margin-left:-40px;margin-right:-40px;
+        > .col, > [class*="col-"]{padding-left: 40px;padding-right: 40px;}
+    }
+    &-xxl {
+        margin-left:-20px;margin-right: -20px;
+        > .col, > [class*="col-"] {padding-left:20px;padding-right: 20px;}
+    }
+    &-xl {
+        margin-left:-16px;margin-right:-16px;
+        > .col, > [class*="col-"]{padding-left: 16px;padding-right: 16px;}
+    }
+    &-l {
+        margin-left:-12px;margin-right:-12px;
+        > .col, > [class*="col-"]{padding-left: 12px;padding-right: 12px;}
+    }
+    &-m{
+        margin-left:-8px;margin-right: -8px;
+        > .col, > [class*="col-"]{padding-left: 8px;padding-right: 8px;}
+    }
+    &-s{
+        margin-left:-6px;margin-right: -6px;
+        > .col, > [class*="col-"]{padding-left: 6px;padding-right: 6px;}
+    }
+    &-xs{
+        margin-left:-4px;margin-right: -4px;
+        > .col, > [class*="col-"]{padding-left: 4px;padding-right: 4px;}
+    }
+    &-xxs{
+        margin-left:-2px;margin-right: -2px;
+        > .col, > [class*="col-"]{padding-left: 2px;padding-right: 2px;}
+    }
+
+    @include media-breakpoint-down(lg) {
+        &-xl{
+            margin-left:-15px;margin-right:-15px;
+            > .col, > [class*="col-"]{padding-left:15px;padding-right:15px;}
+        }
+    }
+    @include media-breakpoint-down(xs) {
+        &-xs{
+            margin-left:-3px;margin-right:-3px;
+            > .col, > [class*="col-"]{padding-left:3px;padding-right:3px;}
+        }
+    }
+}
+
+
+// Ripple Effect
+.ripple-effect-dark,.ripple-effect {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.ripple-effect span.ripple-overlay,.ripple-effect-dark span.ripple-overlay {
+    animation: ripple 0.9s;
+    border-radius: 100%;
+    background: #fff;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    line-height: 12px;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.ripple-effect-dark span.ripple-overlay {
+    background: #000;
+    opacity: 0.07;
+}
+
+.disabledBtn{pointer-events: none; cursor: default; opacity: 0.8;}
+
+

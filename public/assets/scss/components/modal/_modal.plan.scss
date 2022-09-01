@@ -1,0 +1,89 @@
+.viewPlan{
+	.modal-content{border:0;}
+	.modal-header, .modal-body{padding:40px;}
+	.close{
+		font-size: 30px;color:color(500);opacity: 1;transition:all 0.5s;
+		&:hover{
+			opacity: 0.8;   
+		}
+	}
+	.row {
+		margin-left: -10px;
+		margin-right: -10px;
+		> .col,
+		> [class*="col-"] {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+	.plan{
+		.card{
+			border-color: color(500);
+			border-radius: 0;
+			padding: 30px 15px;
+			min-height: 250px;
+			height: 100%;
+			h3{color: color(500);}
+			&--current{
+				border-color: color(450);
+				h3{color: color(450);}	
+			}
+			.btn {padding-left: 20px; padding-right: 20px;}
+		}
+	}
+	.row {
+		> .col,
+		> [class*="col-"] {margin-bottom: 15px;}
+	}
+	@media (max-width: 1599px){
+		.close{font-size: 20px;}
+	}
+
+	@include media-breakpoint-down(lg) {
+		.modal-header, .modal-body{padding:30px;}
+		.plan{
+			.card{padding: 20px;  min-height: 220px;}
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.row {
+			margin-left: -7.5px;
+			margin-right: -7.5px;
+			> .col,
+			> [class*="col-"] {
+				padding-left: 7.5px;
+				padding-right: 7.5px;
+			}
+		}
+		.modal-header, .modal-body{padding:20px;}
+		.plan{
+			.card{
+				padding: 20px;
+				min-height: 225px;
+			}
+		}
+		.close{font-size: 16px;}
+	}
+
+	
+	@media(max-width:479px){
+		.row {
+			> .col,
+			> [class*="col-"] {
+				flex:0 0 100%;
+				max-width: 100%;
+				margin-bottom: 0;
+			   &+ [class*="col-"]{
+					margin-top: 15px;
+				}
+			}
+		}
+		.plan{
+			.card{
+				padding: 15px;
+				min-height: auto;
+			}
+		}
+	}
+}

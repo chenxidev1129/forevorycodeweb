@@ -1,0 +1,21 @@
+.errorPage{
+	background: linear-gradient(107.42deg, #E1F7FF 0%, #35BDF3 70%);
+	h1{
+		font-size: 240px; color:color(50);position: relative;z-index: 1;
+		&:before{
+			position: absolute;bottom:-15px;right:-10px; font-size: 240px;
+			content:attr(data);color:rgba(21, 21, 21, 0.06);z-index: -1;
+		}
+	}
+	p{font-size: 18px; color:color(50);}
+
+	@include media-breakpoint-down(md) {
+		h1{font-size: 190px; &:before{font-size: 190px; bottom:-11px;right:-7px;}}
+		p{font-size: 16px;}
+		.btn-primary-light{min-width: 160px;}
+	}
+	@include media-breakpoint-down(xs) {
+		h1{font-size: 150px; &:before{font-size: 150px; }}
+		p{font-size: 15px; padding:0 15px;}
+	}
+}
